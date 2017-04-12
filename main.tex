@@ -56,7 +56,8 @@ Input: question bank & Output: opinion poll\\
 \item Is it difficult for someone your age to buy marijuana?
 \begin{itemize}
 \item yes: $39$, no: $61$
-\end{itemize}\item Is it easy for someone your age to obtain marijuana?
+\end{itemize}
+\item Is it easy for someone your age to obtain marijuana?
 \begin{itemize}
 \item yes: $39\%$ no: $61$
 \end{itemize}
@@ -71,7 +72,8 @@ Input: question bank & Output: opinion poll\\
 \end{enumerate}
 &
 \begin{itemize}
-\item Is it easy for someone your age to obtain marijuana?
+
+\item Is it easy for someone your age to obtain marijuana?
 
 \item Have you abused prescription drugs? 
 
@@ -93,7 +95,7 @@ Input: question bank & Output: opinion poll\\
 
 There are two challenges raised in the procedure of  picking the appropriate question.  (1) How to match question alternatives? (2) How to measure the quality of wording so that question alternatives can be compared? 
 
-As debate forums consist of user generated content( UGC), there could be numerous questions regarding the same issue, but with different wording and options. The first challenge is to match question alternatives. It involves to steps: (1) identify question alternatives that are similar (2) pair up options. For example, the first, second and third questions  in the left part of Fig.~\ref{fig:example} are equivalent as they are all about the "obtain" of marijuana. The "yes" option in question 1 should be paired up with the "no" option in question 2 and 3, and vice versa.
+As debate forums consist of user generated content( UGC), there could be numerous questions regarding the same issue, but with different wording and options. The first challenge is to match question alternatives. It involves two steps: (1) identify question alternatives that are similar (2) pair up options. For example, the first, second and third questions  in the left part of Fig.~\ref{fig:example} are equivalent as they are all about the "obtain" of marijuana. The "yes" option in question 1 should be paired up with the "no" option in question 2 and 3, and vice versa.
 
 Suppose we have a set of question alternatives, which one is the best to predict public opinion? In the literature of social research, there are general guidelines~\cite{Trochim2000Research} for asking effective questions. However, these rules are objective and indirect, while a practical measure should be subjective and direct. Intuitively, if a problem is worded nicely to reflect the true public opinion, the resulting output must accord with most predictions of other question alternatives. For example, in the right part of Fig.~\ref{fig:example}, we choose question 2 because it agrees with most predictions in the first issue (obtaining marijuana). 
 
@@ -113,10 +115,11 @@ This paper is structured as follows. We briefly introduce related work in Sec~\r
 
 \section{Related Work}\label{sec:relatedwork}
 %Linking online media to polls
+\subsection{Mining Public Opinion}
 http://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/viewFile/1536/1842
 A user-centric model of voting intention from Social Media
 
-
+\subsection{}
 
 
 \section{Framework}\label{sec:framework}
@@ -135,6 +138,20 @@ It is well established that asking enough questions to allow all aspects of an i
 
 \section{Experimental Analysis}\label{sec:experiment}
 \subsection{Experimental Setup}
+The data set used in the experiment is obtained from xxx. We crawl xxx from xxx. The statistics is shown in Tab. It contains 
+
+\begin{table}[htp]
+\caption{Statistics of data set}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Number of queries & 6777 & Avg. length of query & 12.22 \\\hline
+Number of comments  & 28911 & Avg. length of comment & 16739\\\hline
+Number of users &16739 & Avg. votes per user & 1.73\\\hline
+\end{tabular}
+\end{center}
+\label{tab:data}
+\end{table}%
 
 \subsection{Performance of Matching Question Alternatives}
 
