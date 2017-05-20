@@ -3,46 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: abbrv.bst
 Database file #1: /Users/chenlin/Documents/MyResearch/MyManuscripts/MyRef/reference.bib
-Warning--I didn't find a database entry for ""
-You've used 3 entries,
+Warning--can't use both volume and number fields in Hu2004Mining
+Warning--empty booktitle in Mihalcea2004TextRank
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            520 strings with 4308 characters,
-and the built_in function-call counts, 1097 in all, are:
-= -- 106
-> -- 48
-< -- 1
-+ -- 21
-- -- 16
-* -- 73
-:= -- 179
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 17
+            602 strings with 6972 characters,
+and the built_in function-call counts, 6225 in all, are:
+= -- 651
+> -- 251
+< -- 11
++ -- 100
+- -- 84
+* -- 403
+:= -- 929
+add.period$ -- 49
+call.type$ -- 14
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 46
-empty$ -- 88
-format.name$ -- 16
-if$ -- 232
+cite$ -- 16
+duplicate$ -- 275
+empty$ -- 499
+format.name$ -- 84
+if$ -- 1399
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 21
+int.to.str$ -- 14
+missing$ -- 15
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 103
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 70
 quote$ -- 0
-skip$ -- 33
+skip$ -- 221
 stack$ -- 0
-substring$ -- 65
-swap$ -- 13
-text.length$ -- 1
+substring$ -- 425
+swap$ -- 110
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 0
-while$ -- 11
-width$ -- 4
-write$ -- 35
-(There was 1 warning)
+type$ -- 54
+warning$ -- 2
+while$ -- 62
+width$ -- 16
+write$ -- 171
+(There were 2 warnings)
